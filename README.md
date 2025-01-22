@@ -49,6 +49,11 @@ This is a Java Spring Boot application for managing smart parking systems.
    ```bash
    mvn spring-boot:run
 
+### Additional Steps if Maven Wrapper is Not Included
+If the .mvn folder is not included in the repository, ensure that Maven is installed on your system. You can download and install Maven from the official website.
+
+<br> <a href=https://maven.apache.org/install.html> Installation instructions for the latest Maven version </a> <br>
+
 ### Usage
 Once the application is running, you can access it at http://localhost:8080.
 
