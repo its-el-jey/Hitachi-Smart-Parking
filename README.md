@@ -5,15 +5,25 @@ Last Updated: January 22, 2025
 -->
 # Spring Boot Project Setup
 
-## Requirements
+## Hitachi Smart Parking
 
-- **Java 21**: Ensure you have Java 21 installed. You can download it from the official website.
-- **IntelliJ IDEA**: Download and install IntelliJ IDEA from JetBrains.
-- **Maven**: Ensure you have Maven installed. You can download it from the official website.
+This is a Java Spring Boot application for managing smart parking systems.
 
-## Project Setup
+## Getting Started
 
-### 1. Unzip the file
+### Prerequisites
+
+- Java 11 or higher
+- Maven 3.6.0 or higher
+- Git
+
+### Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/its-el-jey/Hitachi-Smart-Parking.git
+   cd Hitachi-Smart-Parking
 
 
 2. Open the Project in IntelliJ IDEA
@@ -21,12 +31,23 @@ Last Updated: January 22, 2025
    Click on File > Open....
    Select the cloned project directory.
    IntelliJ will automatically detect the project as a Maven project and import it.
+
 3. Configure Java 21
    Go to File > Project Structure....
    Under Project Settings, select Project.
    Set the Project SDK to Java 21. If Java 21 is not listed, click New... and select the JDK installation directory.
    Set the Project language level to 21 - Patterns for switch.
+
 4. Build the Project
    Open the Terminal in IntelliJ IDEA.
    Run the following command to build the project:
+
+   ```bash
+   mvn clean install
+
+5. Run the Application: After building the project, run the application using:
+
+   ```bash
+   mvn spring-boot:run
+
 
