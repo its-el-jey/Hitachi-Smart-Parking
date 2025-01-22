@@ -66,3 +66,18 @@ Once the application is running, you can access it at http://localhost:8080.
 
 2. Run the Requests:
 - Use the imported Postman collection to test the various endpoints of the application.
+
+### Example Postman Request
+To test the check-in-vehicle endpoint, you can create a POST request in Postman with the following details:
+
+URL: http://localhost:8080/check-in-vehicle
+-Method: POST
+-Params:
+-lotId: The UUID of the parking lot.
+-licensePlate: The license plate of the vehicle.
+Example:
+
+POST /check-in-vehicle?lotId=123e4567-e89b-12d3-a456-426614174000&licensePlate=ABC123
+
+<b>Note: Make sure to get the correct lotId and licensePlate from the URL: GET /parking-lot/all and GET /vehicle/all</b>
+
