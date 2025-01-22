@@ -25,7 +25,6 @@ This is a Java Spring Boot application for managing smart parking systems.
    git clone https://github.com/its-el-jey/Hitachi-Smart-Parking.git
    cd Hitachi-Smart-Parking
 
-
 2. Open the Project in IntelliJ IDEA
    Open IntelliJ IDEA.
    Click on File > Open....
@@ -50,4 +49,15 @@ This is a Java Spring Boot application for managing smart parking systems.
    ```bash
    mvn spring-boot:run
 
+### Usage
+Once the application is running, you can access it at http://localhost:8080.
 
+### Testing with Postman
+
+1. Import the Postman Collection:
+- Open Postman.
+- Click on Import in the top left corner.
+- Select the Postman collection file provided in the repository (if available) or create your own collection.
+
+2. Run the Requests:
+- Use the imported Postman collection to test the various endpoints of the application.
